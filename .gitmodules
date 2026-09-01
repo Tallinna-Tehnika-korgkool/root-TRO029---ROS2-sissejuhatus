@@ -1,0 +1,21 @@
+[submodule "chapters/week01-02_intro"]
+	path = chapters/week01-02_intro
+	url = /home/mobros_infra/git/TRO029-week01-02_intro-kaugope.git
+[submodule "chapters/week03-04_linux"]
+	path = chapters/week03-04_linux
+	url = /home/mobros_infra/git/TRO029-week03-04_linux-kaugope.git
+[submodule "chapters/week05-06_architecture"]
+	path = chapters/week05-06_architecture
+	url = /home/mobros_infra/git/TRO029-week05-06_architecture-kaugope.git
+[submodule "chapters/week07-08_workspace"]
+	path = chapters/week07-08_workspace
+	url = /home/mobros_infra/git/TRO029-week07-08_workspace-kaugope.git
+[submodule "chapters/week09-10_pubsub"]
+	path = chapters/week09-10_pubsub
+	url = /home/mobros_infra/git/TRO029-week09-10_pubsub-kaugope.git
+[submodule "chapters/week11-12_services"]
+	path = chapters/week11-12_services
+	url = /home/mobros_infra/git/TRO029-week11-12_services-kaugope.git
+[submodule "chapters/week13-14_launch"]
+	path = chapters/week13-14_launch
+	url = /home/mobros_infra/git/TRO029-week13-14_launch-kaugope.git
