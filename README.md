@@ -3,8 +3,7 @@
 See juhend on mõeldud tudengitele, kes **ei saa osaleda auditoorsetes tundides**
 ja läbivad TRO029 "Sissejuhatus ROS2" kaugelt, oma arvutis, kasutades
 **Docker Desktopi**. Sisu (ROS2 kontseptsioonid, käsud, ülesanded) on port
-kursuse algsest GitHub Codespaces/Classroom-põhisest materjalist
-([Tallinna-Tehnika-korgkool/root-TRO029---ROS2-sissejuhatus](https://github.com/Tallinna-Tehnika-korgkool/root-TRO029---ROS2-sissejuhatus)) —
+kursuse varasemast GitHub Codespaces/Classroom-põhisest versioonist —
 **GitHub Classroom ja Codespaces-i valik on eemaldatud**, kuna see
 keskkond kursuse tudengitele enam ei ole ligipääsetav. Kõik nädalad
 kasutavad ühte ja sama teed: kohalik Docker konteiner.
