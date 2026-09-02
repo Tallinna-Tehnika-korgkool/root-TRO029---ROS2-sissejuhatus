@@ -2,11 +2,8 @@
 
 See juhend on mõeldud tudengitele, kes **ei saa osaleda auditoorsetes tundides**
 ja läbivad TRO029 "Sissejuhatus ROS2" kaugelt, oma arvutis, kasutades
-**Docker Desktopi**. Sisu (ROS2 kontseptsioonid, käsud, ülesanded) on port
-kursuse varasemast GitHub Codespaces/Classroom-põhisest versioonist —
-**GitHub Classroom ja Codespaces-i valik on eemaldatud**, kuna see
-keskkond kursuse tudengitele enam ei ole ligipääsetav. Kõik nädalad
-kasutavad ühte ja sama teed: kohalik Docker konteiner.
+**Docker Desktopi**. Kõik nädalad kasutavad ühte ja sama teed: kohalik
+Docker konteiner.
 
 ## Kursuse teemad
 
@@ -21,17 +18,31 @@ kasutavad ühte ja sama teed: kohalik Docker konteiner.
 ## Õppematerjalide struktuur
 
 Iga teema on jagatud kaheks nädalaplokiks ja hallatud eraldi Git
-submodule'ina kaustas `chapters/`.
+submodule'ina kaustas `chapters/`. Kuna tegu on submodule'idega, ei näita
+GitHub nende sisu selle repo enda kaustavaates — kasuta tabeli linke, mis
+viivad otse vastava nädala repositooriumisse.
 
 | Nädalad | Teema (link) | Sisu |
 |---------|--------------|------|
-| 01–02 | [`week01-02_intro`](chapters/week01-02_intro) | Docker + ROS 2 keskkonna seadistamine |
-| 03–04 | [`week03-04_linux`](chapters/week03-04_linux) | Linux CLI põhitõed, failisüsteem, protsessid |
-| 05–06 | [`week05-06_architecture`](chapters/week05-06_architecture) | ROS 2 arhitektuur: noded, topicud, teenused |
-| 07–08 | [`week07-08_workspace`](chapters/week07-08_workspace) | Workspace ja pakettide loomine |
-| 09–10 | [`week09-10_pubsub`](chapters/week09-10_pubsub) | Publisher / Subscriber mustri rakendamine |
-| 11–12 | [`week11-12_services`](chapters/week11-12_services) | Services + kohandatud liidesed |
-| 13–14 | [`week13-14_launch`](chapters/week13-14_launch) | Launch failid ja süsteemide ühendamine |
+| 01–02 | [`week01-02_intro`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week01-02_intro-template) | Docker + ROS 2 keskkonna seadistamine |
+| 03–04 | [`week03-04_linux`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week03-04_linux-template) | Linux CLI põhitõed, failisüsteem, protsessid |
+| 05–06 | [`week05-06_architecture`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week05-06_architecture-template) | ROS 2 arhitektuur: noded, topicud, teenused |
+| 07–08 | [`week07-08_workspace`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week07-08_workspace-template) | Workspace ja pakettide loomine |
+| 09–10 | [`week09-10_pubsub`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week09-10_pubsub-template) | Publisher / Subscriber mustri rakendamine |
+| 11–12 | [`week11-12_services`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week11-12_services-template) | Services + kohandatud liidesed |
+| 13–14 | [`week13-14_launch`](https://github.com/Tallinna-Tehnika-korgkool/TRO029-week13-14_launch-template) | Launch failid ja süsteemide ühendamine |
+
+Kohalikult kausta sisu kättesaamiseks kloonimisel kasuta:
+
+```bash
+git clone --recurse-submodules https://github.com/Tallinna-Tehnika-korgkool/root-TRO029---ROS2-sissejuhatus.git
+```
+
+Kui repo on juba kloonitud ilma submodule'ideta:
+
+```bash
+git submodule update --init --recursive
+```
 
 ## Keskkonna seadistamine
 
